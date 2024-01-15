@@ -1,8 +1,13 @@
+import Link from "next/link";
 
-export default function Home() {
+
+const Home = () => {
   return (
     <main>
       <h1>Meu Portifolio</h1>
+      <Link href="/contatos">ir para a pagina Contatos</Link>
     </main>
   )
 }
+
+export default Home;
