@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { AboutMe } from "@/components/Home/AboutMe";
 import Head from "next/head";
 
 const Home = () => {
@@ -6,11 +6,14 @@ const Home = () => {
     <>
       <Head>
         <title>Sobre mim | samsdev</title>
+        <meta
+        name="description"
+        content="TENHO 21 ANOS, SOU DESENVOLVEDOR FRONTEND
+        COM 7 MESES DE EXPERIENCIA TRABALHANDO COMO FREELANCER"/>
       </Head>
-      <main>
-        <h1>Meu Portfólio</h1>
-        <Link href="/contatos">Ir para a página Contatos</Link>
-      </main>
+      <div>
+        <AboutMe/>
+      </div>
     </>
   );
 };
