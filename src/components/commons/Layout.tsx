@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { ReactNode } from "react";
+import { Header } from "./Header";
 
 interface LayoutProps {
   children: ReactNode;
@@ -8,16 +8,7 @@ interface LayoutProps {
 export const Layout = ({children}: LayoutProps) => {
     return (
       <>
-        <header>
-          <Link href='/'>
-            <img src="Sd.png" alt="icone da samsdev" />
-          </Link>
-          <nav>
-            <Link href='/'>Sobre mim</Link>
-            <Link href='/portfolio'>Portfolio</Link>
-            <Link href='/contatos'>Entre em contato</Link>
-          </nav>
-        </header>
+        <Header/>
         {children}
       </>
   
