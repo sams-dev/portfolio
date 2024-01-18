@@ -4,8 +4,8 @@ export const AboutMe = () => {
     return (
       <main>
         <div>
-          <h1>Oii, sou o Samuel Dos Santos </h1>
-          <span>React Developer</span>
+          <h1>OII, SOU O SAMUEL DOS SANTOS </h1>
+          <span>REACT DEVELOPER</span>
           <h2> TENHO 21 ANOS, SOU DESENVOLVEDOR FRONTEND
 COM 7 MESES DE EXPERIENCIA TRABALHANDO COMO FREELANCER</h2>
           <Link href='/contatos'>Fale comigo!</Link>
