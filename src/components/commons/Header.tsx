@@ -8,7 +8,7 @@ const roboto = Roboto ({
 });
 export const Header = () => {
     return (
-        <header className={roboto.className}>
+        <header className={`${roboto.className}` }>
           <Link href='/'>
             <Image src="/Sd.png" width={50} height={50} alt="icone da samsdev" />
           </Link>
