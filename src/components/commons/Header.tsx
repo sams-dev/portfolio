@@ -12,7 +12,7 @@ export const Header = () => {
           <Link href='/'>
             <Image src="/Sd.png" width={50} height={50} alt="icone da samsdev" />
           </Link>
-          <nav>
+          <nav className="hidden md:flex items-center gap-4 text-md">
             <Link href='/'>Sobre mim</Link>
             <Link href='/portfolio'>Portfolio</Link>
             <Link href='/contatos'>Entre em contato</Link>
