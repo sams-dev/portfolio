@@ -8,7 +8,7 @@ const inter = Inter ({
 })
 export const AboutMe = () => {
     return (
-      <main className= {` ${inter.className} flex flex-wrap justify-center items-center gap-8  py-8 text-lg xl:text-left`}>
+      <main className= {` ${inter.className} flex flex-wrap justify-center items-center gap-8  lg:gap-16  py-8 text-lg xl:text-lef`}>
         <div>
           <h1 className="text-base md:text-2xl font-semibold">Oi 👋🏽 SOU O SAMUEL DOS SANTOS </h1>
           <span className="flex text-5xl md:text-9xl font-bold gap-2 md:gap-4">REACT
@@ -20,17 +20,20 @@ export const AboutMe = () => {
             <Image src='/assets/document.svg' width={128} height={128} alt="curriculo pdf icon"/></a>
           </span>
           <span className="text-5xl md:text-9xl font-semibold">DEVELOPER</span>
-          <h2 className="text-xs md:text-sm font-medium"> TENHO 21 ANOS, SOU DESENVOLVEDOR FRONTEND
-COM 7 MESES DE EXPERIENCIA TRABALHANDO COMO FREELANCER</h2>
           <br />
-          <Link href='/contatos' className="p-2 bg-gray-400 text-white font-medium text-xl md:text-4xl w-fit rounded-lg transition-all hover:bg-opacity-80 flex  ml-auto">Fale comigo!</Link>
-        </div>
-        <ul className="flex gap-2 md:gap-6 text-sm md:text-5xl">
+          <br />
+          <h2 className="text-sm md:text-sm font-medium max-w-screen-md"> Tenho 21 anos, sou desenvolvedor forntend cokm 7 meses de experiencia trabalhando como freelancer. Desenvolvo sistemas focados em auxiliar, que ampliem a qualidade e maximize o tempo e ganho dos clientes, trazendo assim uma experiencia customizada e otimizada de forma única. </h2>
+          <br />
+          <Link href='/contatos' className="p-2 bg-gray-400 text-white font-medium text-xl md:text-4xl w-fit rounded-lg transition-all hover:bg-opacity-80 flex ml-auto">Fale comigo!</Link>
+          <br />
+          <ul className="flex gap-2 md:gap-6  text-base md:text-4xl lg:text-5xl">
           <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#6BDDFA', color: '#000000'}}>react</li>
           <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#EFD81D', color: '#000000'}}>javascript</li>
           <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#2F74C0', color: '#ffffff'}}>typescript</li>
           <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#000000', color: '#ffffff'}}>next.js</li>
         </ul>
+        </div>
+        
       </main>
     );
 }
