@@ -17,19 +17,19 @@ export const AboutMe = () => {
             <a target="_blank" href="https://github.com/sams-dev">
             <Image src='/assets/GitHub.svg' width={128} height={128} alt="github icon"/></a>
             <a target="_blank" href="/CV-samsdev.pdf">
-              <embed ></embed>
             <Image src='/assets/document.svg' width={128} height={128} alt="curriculo pdf icon"/></a>
           </span>
           <span className="text-5xl md:text-9xl font-semibold">DEVELOPER</span>
           <h2 className="text-xs md:text-sm font-medium"> TENHO 21 ANOS, SOU DESENVOLVEDOR FRONTEND
 COM 7 MESES DE EXPERIENCIA TRABALHANDO COMO FREELANCER</h2>
-          <Link href='/contatos'>Fale comigo!</Link>
+          <br />
+          <Link href='/contatos' className="p-2 bg-gray-400 text-white font-medium text-xl md:text-4xl w-fit rounded-lg transition-all hover:bg-opacity-80 flex  ml-auto">Fale comigo!</Link>
         </div>
-        <ul className="flex gap-2 md:gap-8 m-1 text-sm md:text-5xl">
-          <li className="py-2 px-2 rounded-lg font-medium" style={{ backgroundColor: '#6BDDFA', color: '#000000'}}>react</li>
-          <li className="py-2 px-2 rounded-lg font-medium" style={{ backgroundColor: '#EFD81D', color: '#000000'}}>javascript</li>
-          <li className="py-2 px-2 rounded-lg font-medium" style={{ backgroundColor: '#2F74C0', color: '#ffffff'}}>typescript</li>
-          <li className="py-2 px-2 rounded-lg font-medium" style={{ backgroundColor: '#000000', color: '#ffffff'}}>next.js</li>
+        <ul className="flex gap-2 md:gap-6 text-sm md:text-5xl">
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#6BDDFA', color: '#000000'}}>react</li>
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#EFD81D', color: '#000000'}}>javascript</li>
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#2F74C0', color: '#ffffff'}}>typescript</li>
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#000000', color: '#ffffff'}}>next.js</li>
         </ul>
       </main>
     );
