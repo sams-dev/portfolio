@@ -11,13 +11,14 @@ export const AboutMe = () => {
       <main className= {` ${inter.className} flex flex-wrap justify-center items-center gap-8  py-8 text-lg xl:text-left`}>
         <div>
           <h1 className="text-base md:text-2xl font-semibold">Oi 👋🏽 SOU O SAMUEL DOS SANTOS </h1>
-          <span className="flex text-5xl md:text-9xl font-bold gap-6">REACT
-            <a href="https://www.linkedin.com/in/samuel-moreira2905/">
-            <Image src='/Sd.png' width={128} height={128} ></Image></a>
-            <a href="https://www.linkedin.com/in/samuel-moreira2905/">
-            <Image src='/Sd.png' width={128} height={128} ></Image></a>
-            <a href="https://www.linkedin.com/in/samuel-moreira2905/">
-            <Image src='/Sd.png' width={128} height={128} ></Image></a>
+          <span className="flex text-5xl md:text-9xl font-bold gap-4">REACT
+            <a target="_blank" href="https://www.linkedin.com/in/samuel-moreira2905/">
+            <Image src='/assets/linkedin.svg' width={128} height={128} ></Image></a>
+            <a target="_blank" href="https://github.com/sams-dev">
+            <Image src='/assets/GitHub.svg' width={128} height={128} ></Image></a>
+            <a target="_blank" href="/CV-samsdev.pdf">
+              <embed ></embed>
+            <Image src='/assets/document.svg' width={128} height={128} ></Image></a>
           </span>
           <span className="text-5xl md:text-9xl font-semibold">DEVELOPER</span>
           <h2 className="text-xs md:text-sm font-medium"> TENHO 21 ANOS, SOU DESENVOLVEDOR FRONTEND
