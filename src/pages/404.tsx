@@ -9,9 +9,9 @@ const NotFound = () => {
       </Head>
       <div className="text-center mt-12 md:mt-24 space-y-8 md:space-y-16 px-8 md:px-32">
         <h1 className="text-5xl md:text-7xl font-bold">404</h1>
-        <div className="text-xl">
+        <div className="md:text-xl">
           <p>Oops, não conseguimos encontrar essa pagina!</p>
-          <span>Clique no botão abaixo prar ser redirecionado à pagina inical</span>
+          <span>Clique no botão abaixo prar ser redirecionado à pagina inicial</span>
         </div>
         <br />
         <br />
