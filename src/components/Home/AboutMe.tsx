@@ -21,7 +21,6 @@ export const AboutMe = () => {
         </span>
         <span className="text-5xl md:text-9xl font-semibold">DEVELOPER</span>
         <br />
-        <br />
         <h2 className="text-sm md:text-sm font-medium max-w-screen-md"> Tenho 21 anos, sou desenvolvedor frontend com 7 meses de experiencia trabalhando como freelancer. Desenvolvo sistemas focados em auxiliar, que ampliem a qualidade e maximize o tempo e ganho dos clientes, trazendo assim uma experiencia customizada e otimizada de forma única. </h2>
         <br />
         <Link href='/contatos' className="p-2 bg-gray-400 text-white font-medium text-xl md:text-4xl w-fit rounded-lg transition-all hover:bg-opacity-80 flex ml-auto">Fale comigo!</Link>

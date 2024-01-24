@@ -1,3 +1,4 @@
+import PDF from "@/components/contatos/PDF";
 import Head from "next/head";
 
 const Contatos = () => {
@@ -6,27 +7,37 @@ const Contatos = () => {
       <Head>
         <title>Contatos | samsdev</title>
       </Head>
-      <div>
-        <h1>Contatos</h1>
-        <ul>
-          <li>
-            <span>E-mail</span>
+      <div className="mt-12 md:mt-24 space-y-8 md:space-y-16 px-8 md:px-32">
+        <h1 className="text-5xl md:text-7xl font-bold text-center">Contatos</h1>
+        <ul className="table mx-auto space-y-4 md:space-y-8">
+        <li className="md:text-xl">
+            <span className="font-semibold">LinkedIn</span>
             <div>
-              <a href="mailto:samsdev.23@gmail.com">samsdev.23@gmail.com</a>
+              <a className="text-xs md:text-lg text-slate-300 underline truncate" href="https://www.linkedin.com/in/samuel-moreira2905/">https://www.linkedin.com/in/samuel-moreira2905/</a>
+            </div>
+          </li>
+          <li className="md:text-xl">
+            <span className="font-semibold">GitHub</span>
+            <div>
+              <a className="text-xs md:text-lg text-slate-300 underline truncate" href="https://github.com/sams-dev">https://github.com/sams-dev</a>
+            </div>
+          </li>
+          <li className="md:text-xl">
+            <span className="font-semibold">E-mail</span>
+            <div>
+              <a className="text-xs md:text-lg text-slate-300 underline truncate" href="mailto:samsdev.23@gmail.com">samsdev.23@gmail.com</a>
+            </div>
+          </li>
+          <li className="md:text-xl">
+            <span className="font-semibold">Whats</span>
+            <div>
+              <a  href="/.">51 99351-4232</a>
             </div>
           </li>
           <li>
-            <span>LinkedIn</span>
-            <div>
-              <a href="https://www.linkedin.com/in/samuel-moreira2905/">https://www.linkedin.com/in/samuel-moreira2905/</a>
-            </div>
+            <PDF/>
           </li>
-          <li>
-            <span>GitHub</span>
-            <div>
-              <a href="https://github.com/sams-dev">https://github.com/sams-dev</a>
-            </div>
-          </li>
+          
         </ul>
       </div>
     </>
