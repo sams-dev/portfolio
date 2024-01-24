@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 const Contatos = () => {
-    return (
-      <>
+  return (
+    <>
       <Head>
         <title>Contatos | samsdev</title>
       </Head>
@@ -29,8 +29,8 @@ const Contatos = () => {
           </li>
         </ul>
       </div>
-      </>
-    )
+    </>
+  )
 }
 
 export default Contatos;

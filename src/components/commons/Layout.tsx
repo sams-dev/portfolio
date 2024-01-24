@@ -6,16 +6,16 @@ interface LayoutProps {
   children: ReactNode;
 }
 
-const inter = Inter ({
+const inter = Inter({
   subsets: ['latin'],
   weight: '400'
 });
-export const Layout = ({children}: LayoutProps) => {
-    return (
-      <div className={inter.className}>
-        <Header/>
-        {children}
-      </div>
-  
-    );
+export const Layout = ({ children }: LayoutProps) => {
+  return (
+    <div className={inter.className}>
+      <Header />
+      {children}
+    </div>
+
+  );
 }
