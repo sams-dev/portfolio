@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Header } from "./Header";
+import { Header } from "./Navbar";
 import { Inter } from "next/font/google";
 
 interface LayoutProps {
