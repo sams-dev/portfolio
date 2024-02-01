@@ -15,7 +15,7 @@ export const MenuMobile = ({ isVisible, onClose }: MenuProps) => {
           <Link href="/">
             <Image src="/Sd.png" width={50} height={50} alt="icone da samsdev" />
           </Link>
-          <button>
+          <button onClick={onClose}>
             <MenuIconClose />
           </button>
         </div>
