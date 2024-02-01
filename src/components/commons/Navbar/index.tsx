@@ -25,7 +25,7 @@ export const Header = () => {
         <Image src="/Sd.png" width={50} height={50} alt="icone da samsdev" />
       </Link>
       <button className="p-1 md:hidden" onClick={OpenMenu}>
-        <MenuIcon className="fill-white w-10 h-10" />
+        <MenuIcon className="w-10 h-10" />
       </button>
       <nav className="hidden md:flex items-center gap-4 text-md">
         <Link href='/'>Sobre mim</Link>
