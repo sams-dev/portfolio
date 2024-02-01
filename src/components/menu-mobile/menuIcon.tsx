@@ -1,17 +1,23 @@
-import {SVGProps} from "react";
+import { SVGProps } from "react";
 
 export const MenuIcon = (props: SVGProps<SVGSVGElement>) => {
   return (
-    <svg 
-    {...props}
-    stroke="currentColor" 
-    fill="currentColor" 
-    stroke-width="0" 
-    viewBox="0 0 16 16" 
-    height="1em" width="1em" 
-    xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z">
+    <svg
+      {...props}
+      stroke="currentColor"
+      fill="none"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      height="1em" width="1em"
+      xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z"
+        fill="currentColor">
+      </path>
+      <path d="M2 12.0322C2 11.4799 2.44772 11.0322 3 11.0322H21C21.5523 11.0322 22 11.4799 22 12.0322C22 12.5845 21.5523 13.0322 21 13.0322H3C2.44772 13.0322 2 12.5845 2 12.0322Z"
+        fill="currentColor">
+      </path>
+      <path d="M3 17.0645C2.44772 17.0645 2 17.5122 2 18.0645C2 18.6167 2.44772 19.0645 3 19.0645H21C21.5523 19.0645 22 18.6167 22 18.0645C22 17.5122 21.5523 17.0645 21 17.0645H3Z"
+        fill="currentColor">
       </path>
     </svg>
   );
