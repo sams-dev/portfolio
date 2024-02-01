@@ -2,9 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { MenuIconClose } from "@/components/menu-mobile/menuicon-close";
 
-export const MenuMobile = () => {
+interface MenuProps {
+  isVisible: boolean;
+  onClose: () => void;
+}
+
+export const MenuMobile = ({ isVisible, onClose }: MenuProps) => {
   return (
-    <div>
+    <div className={`${isVisible ? 'flex': 'invisible'}`}>
       <div>
         <div>
           <Link href="/">
