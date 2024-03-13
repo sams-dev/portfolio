@@ -22,8 +22,8 @@ export const Projects = ({ projects }: ProjectsProps) => {
                 <Image
                   src={image.url}
                   alt={image.alt}
-                  width={300}
-                  height={300}
+                  width={550}
+                  height={550}
                   className="" />
                 <span>{name}</span>
               </li>
