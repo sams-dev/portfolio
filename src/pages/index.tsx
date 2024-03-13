@@ -1,10 +1,10 @@
 import { AboutMe } from "@/components/Home/AboutMe";
 import Head from "next/head";
-import { Projects } from "./portifolio";
-  
+import { Projects } from "../components/Home/portifolio";
+
 
 const Home = () => {
-  const projects = [{
+  const projectList = [{
     slug: '',
     name: '',
     image: {
@@ -24,7 +24,7 @@ const Home = () => {
       </Head>
       <div className="py-12 px-8 md:px-32 space-y-10 md:space-y-28">
         <AboutMe />
-        <Projects projects={Projects}/>
+        <Projects projects={projectList} />
       </div>
     </>
   );
