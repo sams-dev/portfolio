@@ -5,3 +5,11 @@
 html, body {
   background-color: white;
 }
+
+.project img:hover {
+  filter: blur(4px) brightness(50%);
+}
+
+.box:hover {
+  filter: blur(4px) brightness(50%);
+}
