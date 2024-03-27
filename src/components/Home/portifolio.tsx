@@ -19,9 +19,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
           {projects.map(({ slug, name, image }, index) => (
             <Link href={`/projects/${slug}`} key={name + index}>
               <li className="project inline-block relative flex flex-col gap-2">
-                <div className="box w-[283.2px] md:w-[550px] h-[178.35px] md:h-[283.5px] absolute">
-                  <div className="visualizar border-4 rounded p-2 md:text-4xl font-bold text-white absolute bottom-[70px]  md:bottom-[100px] right-[70px] md:right-[150px] z-10 ">VISUALIZAR</div>
-                </div>
+                  <div className="visualizar border-4 rounded p-2 md:text-4xl font-bold text-white absolute bottom-[80px]  md:bottom-[140px] right-[80px] md:right-[150px] z-10 ">VISUALIZAR</div>
 
                 <Image
                   src={image.url}

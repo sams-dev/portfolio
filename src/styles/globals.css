@@ -10,6 +10,13 @@ html, body {
   filter: blur(4px) brightness(50%);
 }
 
-.box:hover {
-  filter: blur(4px) brightness(50%);
+.project .visualizar {
+  display: none; 
+  opacity: 0;
+}
+
+.project:hover .visualizar {
+  display: block;
+  opacity: 1;
+  transition: visibility 0.2s, opacity 0.2s;
 }
