@@ -20,7 +20,7 @@ export const Header = () => {
   }, []);
   
   return (
-    <header className={`${roboto.className} bg-black text-sm flex py-2 px-2 justify-between text-white font-normal items-center sticky top-0 z-20`}>
+    <header className={`${roboto.className} bg-black text-sm flex py-2 px-2 justify-between text-white font-normal items-center sticky top-0 z-30`}>
       <Link href='/'>
         <Image src="/Sd.png" width={50} height={50} alt="icone da samsdev" />
       </Link>
