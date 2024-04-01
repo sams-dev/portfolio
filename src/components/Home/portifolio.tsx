@@ -57,7 +57,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
                   </div>
                 </div>
               </div>
-              <ul className="flex justify-center items-center gap-4" >
+              <ul className="flex inline-flex justify-center justify-items-center items-center gap-4 bg-black bg-opacity-80 border border-gray-800 rounded-2xl px-4 py-2" >
                 <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
                 <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
                 <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
