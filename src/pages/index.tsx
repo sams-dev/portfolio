@@ -1,8 +1,6 @@
 import { AboutMe } from "@/components/Home/AboutMe";
 import Head from "next/head";
 import { Projects } from "../components/Home/portifolio";
-import Carousel from "@/components/Home/Slider-carousel";
-
 
 const Home = () => {
   const projectList = [
@@ -68,7 +66,6 @@ const Home = () => {
       <div className="py-12 px-8 md:px-32 space-y-10 md:space-y-28">
         <AboutMe />
         <Projects projects={projectList} />
-        <Carousel/>
       </div>
     </>
   );

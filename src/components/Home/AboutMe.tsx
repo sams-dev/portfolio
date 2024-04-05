@@ -26,10 +26,10 @@ export const AboutMe = () => {
         <Link href='/contatos' className="p-2 bg-gray-400 text-white font-medium text-xl md:text-4xl w-fit rounded-lg transition-all hover:bg-opacity-80 flex ml-auto">Fale comigo!</Link>
         <br />
         <ul className="flex gap-2 md:gap-6 text-center justify-center text-base md:text-4xl lg:text-5xl">
-          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#6BDDFA', color: '#000000' }}>react</li>
-          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#EFD81D', color: '#000000' }}>javascript</li>
-          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#2F74C0', color: '#ffffff' }}>typescript</li>
-          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#000000', color: '#ffffff' }}>next.js</li>
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#6BDDFA', color: '#000000' }}>React</li>
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#EFD81D', color: '#000000' }}>JavaScript</li>
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#2F74C0', color: '#ffffff' }}>TypeScript</li>
+          <li className="w-fit p-2 rounded-lg font-medium" style={{ backgroundColor: '#000000', color: '#ffffff' }}>Next.js</li>
         </ul>
       </div>
 
