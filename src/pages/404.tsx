@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <>
       <Head>
-        <title>pagina não encontrada | samsdev</title>
+        <title>página não encontrada | samsdev</title>
       </Head>
       <div className="text-center mt-12 md:mt-24 space-y-8 md:space-y-16 px-8 md:px-32">
         <h1 className="text-5xl md:text-7xl font-bold">404</h1>
@@ -18,7 +18,6 @@ const NotFound = () => {
         <Link className="p-2 bg-gray-800 text-white font-medium text-xl md:text-2xl w-fit rounded-lg transition-all hover:bg-opacity-80" href="/">ir para pagina inicial</Link>
       </div>
     </>
-
   )
 }
 
