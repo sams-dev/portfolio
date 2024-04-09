@@ -1,11 +1,15 @@
 import { Project } from "@/types/home";
 import Head from "next/head";
-import Link from "next/link";
+import { Nunito } from "next/font/google";
 import Image from "next/image";
 
 interface ProjectsProps {
   projects: Project[];
-}
+};
+const nunito = Nunito({
+  weight: '400',
+  subsets: ["latin"],
+});
 
 export const Projects = ({ projects }: ProjectsProps) => {
   return (
@@ -60,10 +64,12 @@ export const Projects = ({ projects }: ProjectsProps) => {
               </div>
               <div className="relative text-center w-[560px]">
                 <span className="text-4xl font-medium">{name}</span>
-                <p className="p-2 text-gray-800">Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div className="flex gap-8 p-4 absolute md:bottom-[2px] md:right-[30px] justify-center items-center">
-                  <a className="bg-gray-400 text-white text-lg w-[200px] p-4 rounded-xl" href="">repositorio</a>
-                  <a className="bg-gray-400 text-white text-lg w-[200px] p-4 rounded-xl" href="">visualizar</a>
+                <p className={`${nunito.className} p-2 text-gray-800`}>Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div className="flex gap-8 p-4 text-center absolute md:bottom-[2px] md:right-[30px] justify-center items-center">
+                  <a className="flex gap-4 bg-gray-400 text-white text-lg text-center w-[200px] p-3 rounded-xl" href="">
+                  <Image src="/assets/gh-white.svg" alt="" width={30} height={30} />repositorio</a>
+                  <a className="flex gap-8 bg-gray-400 text-white text-lg text-center w-[200px] p-3 rounded-xl" href="">
+                  <Image src="/assets/play.svg" alt="" width={18} height={20} />visualizar</a>
                 </div>
 
               </div>
