@@ -66,9 +66,9 @@ export const Projects = ({ projects }: ProjectsProps) => {
                 <span className="text-4xl font-medium">{name}</span>
                 <p className={`${nunito.className} p-2 text-gray-800`}>Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <div className="flex gap-8 p-4 text-center absolute md:bottom-[2px] md:right-[30px] justify-center items-center">
-                  <a className="flex gap-4 bg-gray-400 text-white text-lg text-center w-[200px] p-3 rounded-xl" href="">
+                  <a className="btn flex gap-4 bg-gray-400 text-white text-lg text-center w-[200px] p-3 rounded-xl" href="">
                   <Image src="/assets/gh-white.svg" alt="" width={30} height={30} />repositorio</a>
-                  <a className="flex gap-8 bg-gray-400 text-white text-lg text-center w-[200px] p-3 rounded-xl" href="">
+                  <a className="btn flex gap-8 bg-gray-400 text-white text-lg text-center w-[200px] p-3 rounded-xl" href="">
                   <Image src="/assets/play.svg" alt="" width={18} height={20} />visualizar</a>
                 </div>
 
