@@ -13,34 +13,28 @@ export const Projects = ({ projects }: ProjectsProps) => {
       <Head>
         <title>Portifolio | samsdev</title>
       </Head>
-      <article className="space-y-16 flex flex-col justify-center items-center text-center">
+      <section id="projetos" className="space-y-16 bg-gray-100 rounded-2xl border border-gray-400 box-shadow p-4 flex flex-col justify-start text-center">
         <h2 className="text-2xl md:text-4xl font-semibold">PROJETOS</h2>
-        <ul className="flex flex-wrap gap-4">
-          {projects.map(({ slug, name, image }, index) => (
-            <Link href={`/projects/${slug}`} key={name + index}>
-              <div className="relative flex flex-col gap-2">
-                <span className="text-xl font-medium">{name}</span>
+        <ul className=" flex gap-4">
+          {projects.map(({ name, image }, index) => (
+            <li className="flex gap-4 p-2" key={name + index}>
+              <div className="py-4 relative flex flex-col justify-start items-center gap-y-2">
                 <Image
                   src="/responsive (2).png"
                   alt=""
                   width={596}
                   height={580} />
 
-                <div className="desktop rounded absolute bg-black md:bottom-[51px] md:right-[78px] z-10">
-                  <li className="project inline-block relative flex flex-col gap-2">
-                    <div className="visualizar border-4 rounded p-2 md:text-2xl font-bold text-white absolute bottom-[80px]  md:bottom-[20px] right-[80px] md:right-[140px] z-10 ">VISUALIZAR</div>
-
-                    <Image
-                      src={image.url}
-                      alt={image.alt}
-                      width={450}
-                      height={450}
-                      className="object-cover border border-gray-800 rounded-md" />
-
-                  </li>
+                <div className="desktop rounded absolute bg-black md:top-[32px] md:right-[78px] z-10">
+                  <Image
+                    src={image.url}
+                    alt={image.alt}
+                    width={550}
+                    height={550}
+                    className="object-cover border border-gray-800 rounded-md" />
                 </div>
 
-                <div className="mobile bg-white absolute rounded-2xl md:bottom-[-1px] md:right-[0px] z-30">
+                <div className="mobile bg-white absolute rounded-2xl md:bottom-[80px] md:right-[1px] z-30">
                   <Image
                     src="/cel.png"
                     alt=""
@@ -56,19 +50,29 @@ export const Projects = ({ projects }: ProjectsProps) => {
                       className="border border-gray-800 rounded-xl absolute md:bottom-[8px] md:right-[4px] z-10" />
                   </div>
                 </div>
+                <ul className="flex inline-flex justify-center items-center gap-4 bg-black bg-opacity-80 border border-gray-800 rounded-2xl px-4 py-2" >
+                  <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40} /></li>
+                  <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40} /></li>
+                  <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40} /></li>
+                  <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40} /></li>
+                  <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40} /></li>
+                </ul>
               </div>
-              <ul className="flex inline-flex justify-center justify-items-center items-center gap-4 bg-black bg-opacity-80 border border-gray-800 rounded-2xl px-4 py-2" >
-                <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
-                <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
-                <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
-                <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
-                <li><Image src="/assets/linkedin.svg" alt="" width={40} height={40}/></li>
-              </ul>
-            </Link>
-            
+              <div className="relative text-center w-[560px]">
+                <span className="text-4xl font-medium">{name}</span>
+                <p className="p-2 text-gray-800">Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div className="flex gap-8 p-4 absolute md:bottom-[2px] md:right-[30px] justify-center items-center">
+                  <a className="bg-gray-400 text-white text-lg w-[200px] p-4 rounded-xl" href="">repositorio</a>
+                  <a className="bg-gray-400 text-white text-lg w-[200px] p-4 rounded-xl" href="">visualizar</a>
+                </div>
+
+              </div>
+            </li>
           ))}
         </ul>
-      </article>
+        <br></br>
+
+      </section>
     </>
 
   );

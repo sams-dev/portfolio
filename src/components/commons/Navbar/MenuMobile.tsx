@@ -24,7 +24,7 @@ export const MenuMobile = ({ isVisible, onClose }: MenuProps) => {
         </div>
         <nav className="flex flex-col gap-8 text-xl p-5 items-center">
           <Link href="/" onClick={onClose}>Sobre mim</Link>
-          <Link href="/portfolio" onClick={onClose}>Portfolio</Link>
+          <Link href="/#projetos" onClick={onClose}>Portfolio</Link>
           <Link href="/contatos" onClick={onClose}>Entre em contato</Link>
         </nav>
       </div>

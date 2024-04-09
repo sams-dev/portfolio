@@ -5,53 +5,12 @@ import { Projects } from "../components/Home/portifolio";
 const Home = () => {
   const projectList = [
     {
-    slug: 'github-clone',
     name: 'GitHub Clone',
     image: {
       url: '/github-project.png',
       alt: 'imagem do site github clone',
     }
-  },
-  {
-    slug: 'github-clone',
-    name: 'GitHub Clone',
-    image: {
-      url: '/github-project.png',
-      alt: 'imagem do site github clone',
-    }
-  },
-  {
-    slug: 'github-clone',
-    name: 'GitHub Clone',
-    image: {
-      url: '/github-project.png',
-      alt: 'imagem do site github clone',
-    }
-  },
-  {
-    slug: 'github-clone',
-    name: 'GitHub Clone',
-    image: {
-      url: '/github-project.png',
-      alt: 'imagem do site github clone',
-    }
-  },
-  {
-    slug: 'github-clone',
-    name: 'GitHub Clone',
-    image: {
-      url: '/github-project.png',
-      alt: 'imagem do site github clone',
-    }
-  },
-  {
-    slug: 'github-clone',
-    name: 'GitHub Clone',
-    image: {
-      url: '/github-project.png',
-      alt: 'imagem do site github clone',
-    }
-  },
+  }
 ];
 
   return (

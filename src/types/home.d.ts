@@ -4,7 +4,6 @@ export interface Image {
 }
 
 export interface Project {
-    slug: string;
     name: string;
     image: Image;
 }

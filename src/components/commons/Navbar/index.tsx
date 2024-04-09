@@ -29,7 +29,7 @@ export const Header = () => {
       </button>
       <nav className="hidden md:flex items-center gap-4 text-md">
         <Link href='/'>Sobre mim</Link>
-        <Link href='/portfolio'>Portfolio</Link>
+        <Link href='/#projetos'>Portfolio</Link>
         <Link href='/contatos'>Entre em contato</Link>
       </nav>
       <MenuMobile isVisible={isMenuOpen} onClose={closeMenu} />
