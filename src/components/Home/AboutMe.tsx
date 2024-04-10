@@ -31,22 +31,22 @@ export const AboutMe = () => {
         </span>
         <span className={` ${ubunto.className} text-5xl md:text-9xl font-semibold`}>DEVELOPER</span>
         <br />
-        <h2 className={`${nunito.className} text-sm md:text-sm font-medium max-w-screen-md`}> Tenho 21 anos, sou desenvolvedor frontend com 7 meses de experiencia trabalhando como freelancer. Desenvolvo sistemas focados em auxiliar, que ampliem a qualidade e maximize o tempo e ganho dos clientes, trazendo assim uma experiencia customizada e otimizada de forma única. </h2>
+        <h2 className={`${nunito.className} p-2 text-sm md:text-sm font-medium max-w-screen-md`}> Tenho 21 anos, sou desenvolvedor frontend com 7 meses de experiencia trabalhando como freelancer. Desenvolvo sistemas focados em auxiliar, que ampliem a qualidade e maximize o tempo e ganho dos clientes, trazendo assim uma experiencia customizada e otimizada de forma única. </h2>
 
         <Link href='/contatos' className="p-2 bg-gray-400 text-white font-medium text-xl md:text-2xl w-fit rounded-lg transition-all hover:bg-opacity-80 flex ml-auto">Fale comigo!</Link>
         
-        <ul className="flex gap-2 pt-6 md:gap-3 text-center justify-center text-base md:text-4xl lg:text-5xl">
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/html5-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/css3-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/js-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/react-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/bootstrap-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="rounded-md" src="/assets/ts-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/nextjs-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/tailwind-css-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/figma-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/ux-icon.svg" width={40} height={40} alt=""></Image></li>
-          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image src="/assets/ui8-icon.svg" width={40} height={40} alt=""></Image></li>
+        <ul className="flex flex-wrap gap-2 pt-6 md:gap-3 text-center justify-center text-base md:text-4xl lg:text-5xl">
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/html5-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/css3-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/js-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/react-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/bootstrap-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="rounded md:rounded-md md:w-[40px] md:h[40px]" src="/assets/ts-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/nextjs-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/tailwind-css-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/figma-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/ux-icon.svg" width={20} height={20} alt=""></Image></li>
+          <li className="bg-gray-100 flex items-center p-2 border border-gray-300 rounded-xl"><Image className="md:w-[40px] md:h[40px]" src="/assets/ui8-icon.svg" width={20} height={20} alt=""></Image></li>
         </ul>
       </div>
 
