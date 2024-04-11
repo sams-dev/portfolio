@@ -10,7 +10,56 @@ const Home = () => {
         url: '/github-project.png',
         alt: 'imagem do site github clone',
       }
-    }
+    },
+    {
+      name: 'GitHub Clone',
+      image: {
+        url: '/github-project.png',
+        alt: 'imagem do site github clone',
+      }
+    },
+    {
+      name: 'GitHub Clone',
+      image: {
+        url: '/github-project.png',
+        alt: 'imagem do site github clone',
+      }
+    },
+    {
+      name: 'GitHub Clone',
+      image: {
+        url: '/github-project.png',
+        alt: 'imagem do site github clone',
+      }
+    },
+    {
+      name: 'GitHub Clone',
+      image: {
+        url: '/github-project.png',
+        alt: 'imagem do site github clone',
+      }
+    },
+    {
+      name: 'GitHub Clone',
+      image: {
+        url: '/github-project.png',
+        alt: 'imagem do site github clone',
+      }
+    },
+    {
+      name: 'GitHub Clone',
+      image: {
+        url: '/github-project.png',
+        alt: 'imagem do site github clone',
+      }
+    },
+    {
+      name: 'GitHub Clone',
+      image: {
+        url: '/github-project.png',
+        alt: 'imagem do site github clone',
+      }
+    },
   ];
 
   return (
