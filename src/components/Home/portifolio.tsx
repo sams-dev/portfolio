@@ -31,9 +31,9 @@ export const Projects = ({ projects }: ProjectsProps) => {
       <Head>
         <title>Portifolio | samsdev</title>
       </Head>
-      <section id="projetos" className="space-y-2 md:mt-16 bg-gray-200 rounded-2xl border border-gray-400 box-shadow lg:pt-8 px-5 flex flex-col justify-start text-center items-center">
+      <section id="projetos" className="space-y-2 md:mt-16 bg-gray-200 rounded-2xl border border-gray-400 box-shadow lg:py-8 px-5 flex flex-col justify-start text-center items-center">
         <h2 className="text-2xl text-gray-700 md:text-4xl font-semibold">PROJETOS</h2>
-        <Slider {...settings} className="lg:w-[1140px] lg:h-[435px]">
+        <Slider {...settings} className="w-[90%] lg:w-[98%] lg:h-[435px]">
           {projects.map(({ name, image }, index) => (
             <div className="overflow-hidden rounded-lg md:flex md:p-2" key={name + index}>
               <div className="md:flex md:gap-4 ">
@@ -46,7 +46,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
                     height={160}
                     className="md:w-[596px] md:h-[325px]"
                   />
-                  <div className="desktop w-[206px] h-[120px] md:w-[435px] md:h-[257px] inline-block rounded absolute bg-black top-[22px] right-[35px] md:top-[28px] md:right-[74px] z-10">
+                  <div className="desktop w-[206px] h-[120px] md:w-[437px] md:h-[257px] inline-block rounded absolute bg-black top-[22px] right-[35px] md:top-[28px] md:right-[74px] z-10">
                     <Image
                       src={image.url}
                       alt={image.alt}
@@ -89,7 +89,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
                       <a className="btn flex items-center md:gap-4 bg-gray-400 text-white md:text-lg text-center md:w-[200px] p-[5px] pr-9 md:p-3 rounded-lg md:rounded-xl" href="">
                         <Image src="/assets/gh-white.svg" alt="" width={30} height={30} />repositorio</a>
                       <a className="btn flex items-center md:gap-8 bg-gray-400 text-white md:text-lg text-center md:w-[200px] p-2 pr-7 md:p-3 rounded-lg md:rounded-xl" href="">
-                        <Image src="/assets/play.svg" alt="" width={18} height={20} />visualizar</a>
+                        <Image src="/assets/eye-icon.svg" alt="" width={18} height={20} />visualizar</a>
                     </div>
                   </div>
                 </div>
