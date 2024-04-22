@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body {
-  background-color: white;
+  background-color: #F1F1F1;
 }
 
 .box-shadow {

@@ -5,5 +5,20 @@ export interface Image {
 
 export interface Project {
     name: string;
-    image: Image;
+    imageWeb:{
+        url: string;
+        alt: string;
+    };
+    imageMobile: {
+        url: string;
+        alt: string;
+    };
+    desc: string;
+    linkRepositorio:{
+        url: string;
+    };
+    linkSite:{
+        url: string;
+    };
+    technologies: string[];
 }
