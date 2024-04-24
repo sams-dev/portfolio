@@ -11,7 +11,7 @@ const Home = () => {
         alt: 'imagem do site github clone',
       },
       imageMobile: {
-        url: '/cel.png',
+        url: '/v-mobile.png',
         alt: 'imagem do site github clone',
       },
       desc: 'Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
@@ -21,7 +21,7 @@ const Home = () => {
       linkSite: {
         url: "https://github-cloneweb.vercel.app/"
       },
-      technologies: ['html5', 'css3', 'js', 'react', 'bootstrap']
+      technologies: ['js', 'react', 'bootstrap']
     },
     {
       name: 'GitHub ',
@@ -30,7 +30,7 @@ const Home = () => {
         alt: 'imagem do site github clone',
       },
       imageMobile: {
-        url: '/cel.png',
+        url: '/v-mobile.png',
         alt: 'imagem do site github clone',
       },
       desc: 'Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
@@ -40,7 +40,7 @@ const Home = () => {
       linkSite: {
         url: "https://github-cloneweb.vercel.app/"
       },
-      technologies: ['html5', 'css3', 'js', 'React', 'HTML5', 'CSS3', 'ts', 'React']
+      technologies: ['js', 'React', 'HTML5', 'CSS3', 'ts', 'tailwind-css', 'ts', 'tailwind-css' ]
     }
   ];
 

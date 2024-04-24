@@ -8,8 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     
-    }
+      screens: {
+        'xs320':'320px',
+        'xs': '425px'
+      }
+    },
   },
   plugins: [],
 }
