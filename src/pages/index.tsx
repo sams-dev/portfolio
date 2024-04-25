@@ -54,7 +54,7 @@ const Home = () => {
         COM 7 MESES DE EXPERIENCIA TRABALHANDO COMO FREELANCER"/>
       </Head>
 
-      <div className="pt-12 pb-3 px-8 md:pb-12 md:px-32 space-y-16 md:space-y-40">
+      <div className="pt-12 pb-3 px-8 md:pb-12 lg:px-32 space-y-16 md:space-y-40">
         <AboutMe />
         <Projects projects={projectList} />
       </div>

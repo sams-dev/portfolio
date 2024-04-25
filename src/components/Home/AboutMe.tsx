@@ -19,7 +19,7 @@ export const AboutMe = () => {
     <main className={` ${roboto.className} flex flex-wrap justify-center items-center gap-8  lg:gap-16  py-8 text-lg xl:text-lef`}>
       <div>
         <h1 className="text-base md:text-2xl font-semibold indent-2 md:indent-4">Oi 👋🏽 SOU O SAMUEL DOS SANTOS </h1>
-        <span className={` ${ubunto.className} flex text-5xl items-center md:text-9xl font-bold gap-2 md:gap-8`}>REACT
+        <span className={` ${ubunto.className} flex items-center text-5xl xs:text-6xl xs480:text-7xl sm720:text-[80px] sm640:text-[95px] sm:text-[108px] md820:text-9xl font-bold gap-2 md:gap-8`}>REACT
           <div className="flex gap-2">
             <a target="_blank" href="https://www.linkedin.com/in/samuel-moreira2905/">
               <Image src='/assets/linkedin.svg' width={95} height={128} alt="linkedin icon" /> </a>
@@ -29,7 +29,7 @@ export const AboutMe = () => {
               <Image src='/assets/document.svg' width={95} height={128} alt="curriculo pdf icon" /></a>
           </div>
         </span>
-        <span className={` ${ubunto.className} text-5xl md:text-9xl font-semibold`}>DEVELOPER</span>
+        <span className={` ${ubunto.className} text-5xl xs:text-6xl xs480:text-7xl sm720:text-[80px] sm640:text-[95px] sm:text-[108px]  md820:text-9xl font-semibold`}>DEVELOPER</span>
         <br />
         <h2 className={`${nunito.className} p-2 text-sm md:text-sm text-justify font-medium indent-1 max-w-screen-md`}> Tenho 21 anos, sou desenvolvedor frontend com 7 meses de experiencia trabalhando como freelancer. Desenvolvo sistemas focados em auxiliar, que ampliem a qualidade e maximize o tempo e ganho dos clientes, trazendo assim uma experiencia customizada e otimizada de forma única. </h2>
 

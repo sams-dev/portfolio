@@ -10,7 +10,11 @@ const config: Config = {
     extend: {
       screens: {
         'xs320':'320px',
-        'xs': '425px'
+        'xs': '426px',
+        'xs480': '500px',
+        'sm720': '540px',
+        'sm640':'580px',
+        'md820': '757px'
       }
     },
   },
