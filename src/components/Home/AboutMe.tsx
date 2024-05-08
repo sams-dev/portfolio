@@ -24,7 +24,7 @@ export const AboutMe = () => {
             <a target="_blank" href="https://www.linkedin.com/in/samuel-moreira2905/">
               <Image className="sm:w-[85px] md:w-[90px] md860:w-[110px] lg:w-[100px] xl:w-[120px] md:mr-6 mr-4" src='/assets/linkedin.svg' width={120} height={128} alt="linkedin icon" /> </a>
             <a target="_blank" href="https://github.com/sams-dev">
-              <Image className="sm:w-[115px] md:w-[105px] md860:w-[120px] lg:w-[115px] xl:w-[132px]" src='/assets/GitHub.svg' width={132} height={128} alt="github icon" /></a>
+              <Image className="sm:w-[115px] md:w-[105px] md860:w-[120px] lg:w-[115px] xl:w-[132px]" src='/assets/github.svg' width={132} height={128} alt="github icon" /></a>
             <a target="_blank" href="/CV-samsdev.pdf">
               <Image className="sm:w-[115px] md:w-[110px] md860:w-[120px] lg:w-[122px] xl:w-[142px]" src='/assets/document.svg' width={142} height={128} alt="curriculo pdf icon" /></a>
           </div>
