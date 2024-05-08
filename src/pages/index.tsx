@@ -32,7 +32,7 @@ const Home = () => {
       linkSite: {
         url: "https://github-cloneweb.vercel.app/"
       },
-      technologies: ['js', 'React', 'HTML5', 'CSS3', 'ts', 'tailwind-css', 'ts', 'tailwind-css' ]
+      technologies: ['js', 'react', 'html5', 'css3', 'ts', 'tailwind-css', 'ts', 'tailwind-css' ]
     }
   ];
 
