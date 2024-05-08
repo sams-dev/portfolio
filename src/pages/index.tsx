@@ -7,11 +7,7 @@ const Home = () => {
     {
       name: 'GitHub Clone',
       imageWeb: {
-        url: '/github-project.png',
-        alt: 'imagem do site github clone',
-      },
-      imageMobile: {
-        url: '/v-mobile.png',
+        url: '/github-Mockup.png',
         alt: 'imagem do site github clone',
       },
       desc: 'Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
@@ -26,11 +22,7 @@ const Home = () => {
     {
       name: 'GitHub ',
       imageWeb: {
-        url: '/github-project.png',
-        alt: 'imagem do site github clone',
-      },
-      imageMobile: {
-        url: '/v-mobile.png',
+        url: '/github-Mockup.png',
         alt: 'imagem do site github clone',
       },
       desc: 'Lorem Ipsum iLorem Ipsum is simply dummy text of sed in the 1960s with the release of Letraset sheets containing since the 1500s, but also the leap into electronic typesetting, Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
@@ -54,7 +46,7 @@ const Home = () => {
         COM 7 MESES DE EXPERIENCIA TRABALHANDO COMO FREELANCER"/>
       </Head>
 
-      <div className="pt-12 pb-3 px-8 md:pb-12 lg:px-32 space-y-16 md:space-y-40">
+      <div className="pt-12 pb-3 px-8 md:pb-12 lg:px-32 space-y-24 md:space-y-40">
         <AboutMe />
         <Projects projects={projectList} />
       </div>

@@ -9,10 +9,6 @@ export interface Project {
         url: string;
         alt: string;
     };
-    imageMobile: {
-        url: string;
-        alt: string;
-    };
     desc: string;
     linkRepositorio:{
         url: string;
